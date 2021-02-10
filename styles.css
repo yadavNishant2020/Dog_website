@@ -1,0 +1,159 @@
+
+h1
+{
+font-family: "Montserrat";
+font-size: 3.5rem;
+font-weight: 900;
+line-height: 1.5;
+text-align: left;
+padding-top: 4.5rem;
+color: white;
+}
+ul{
+  margin-left:auto;
+}
+h3{
+  font-family: "Montserrat";
+  font-weight: bold;
+
+}
+p{
+  color: #8f8f8f;
+}
+h2{
+font-family: 'Nunito', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#title{
+  background-color: #ff4c68;
+
+  font-family: "Montserrat";
+  position: relative;
+
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+
+/* Navbar STyling */
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding-left: 18px;
+  padding-right: 18px;
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.iphone-image{
+  width: 50%;
+  transform: rotate(25deg);
+  margin-left: 80px;
+  position: absolute;
+  right: 30%;
+  z-index: 0;
+  padding-top: 100px;
+
+}
+
+/* Features */
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* Testinomial */
+#testimonials{
+
+  text-align:center;
+  background-color:#ef8172;
+  color: #FFF;
+
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.img{
+  width: 12%;
+  border-radius: 100%;
+  margin: 20px;
+
+}
+#press{
+  background-color:#ef8172;
+  padding-bottom: 3%;
+  text-align:center;
+
+}
+.press_img{
+  width: 15%;
+  margin: 20px 20px 50px;
+
+}
+#pricing{
+  padding: 100px;
+}
+.btn2{
+  margin-top:58px;
+}
+.pp{
+  text-align:center;
+  padding: 5% 2%;
+}
+/* <!-- Call to Action --> */
+#cta{
+background-color: #ff4c68;
+color: #fff;
+padding: 7% 15%;
+font-family: "Montserrat";
+font-weight: 900;
+line-height: 1.5;
+text-align: center;
+padding-top: 4.5rem;
+color: white;
+}
+.info{
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+/*Footer*/
+#footer{
+  text-align: center;
+  margin-top: 100px;
+  padding-bottom: 50px;
+}
+.ico{
+  padding: 20px 15px;
+}
+@@media (max-width 1028px){
+  .iphone{
+    position: static;
+    transform:rotate(0);
+  }
+}
